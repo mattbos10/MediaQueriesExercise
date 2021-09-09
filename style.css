@@ -52,6 +52,11 @@ h1 {
         text-transform: uppercase;
     }
 }
+@media print {
+  h1 {
+      color: green;
+  }
+}
 /* BONUS 2 */
 @media (max-width: 800px) and (min-width: 600px) {
     #two {
